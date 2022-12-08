@@ -3,7 +3,7 @@ import React from "react";
 function faqs() {
   return (
     <div>
-      <h1 className="aheader">FAQS</h1>
+      <h1 className="header">FAQS</h1>
       <body>
         <span>
           <h4> How many team members can I invite?</h4>
