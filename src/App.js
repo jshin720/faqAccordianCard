@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <div>
-        <img src={boxPicture} />
-        <img src={womenDesktop} />
-        <img src={womenMobile} />
+        <img src={boxPicture} alt="box"/>
+        <img src={womenDesktop} alt="desktop"/>
+        <img src={womenMobile}  alt="mobile"/>
       </div>
       <Faqs />
     </div>

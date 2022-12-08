@@ -1,4 +1,6 @@
 import React from "react";
+import downArrow from "../images/icon-arrow-down.svg"
+
 
 function faqs() {
   return (
@@ -7,6 +9,7 @@ function faqs() {
       <body>
         <span>
           <h4> How many team members can I invite?</h4>
+          <img src={downArrow} alt="arrow" />
           <p>
             You can invite up to 2 additional users on the Free plan. There is
             no limit on team members for the Premium plan.
@@ -14,6 +17,7 @@ function faqs() {
         </span>
         <span>
           <h4>What is the maximum file upload size?</h4>
+          <i className="el el-chevron-down"></i>
           <p>
             No more than 2GB. All files in your account must fit your allotted
             storage space.
@@ -45,9 +49,10 @@ function faqs() {
         <div className="attribution">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge">
-             Frontend Mentor
+            Frontend Mentor
           </a>
-          . Coded by <a href="#">Your Name Here</a>.
+          . Coded by 
+          {/* <a href="#">Your Name Here</a>. */}
         </div>
       </footer>
     </div>
