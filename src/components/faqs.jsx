@@ -17,7 +17,7 @@ function faqs() {
         </span>
         <span>
           <h4>What is the maximum file upload size?</h4>
-          <i className="el el-chevron-down"></i>
+          <img src={downArrow} alt="arrow" />
           <p>
             No more than 2GB. All files in your account must fit your allotted
             storage space.
@@ -25,6 +25,7 @@ function faqs() {
         </span>
         <span>
           <h4> How do I reset my password?</h4>
+          <img src={downArrow} alt="arrow" />
           <p>
             Click “Forgot password” from the login page or “Change password”
             from your profile page. A reset link will be emailed to you.
@@ -32,6 +33,7 @@ function faqs() {
         </span>
         <span>
           <h4>Can I cancel my subscription?</h4>
+          <img src={downArrow} alt="arrow" />
           <p>
             Yes! Send us a message and we’ll process your request no questions
             asked.
@@ -39,6 +41,7 @@ function faqs() {
         </span>
         <span>
           <h4> Do you provide additional support?</h4>
+          <img src={downArrow} alt="arrow" />
           <p>
             Chat and email support is available 24/7. Phone lines are open
             during normal business hours.
@@ -51,7 +54,7 @@ function faqs() {
           <a href="https://www.frontendmentor.io?ref=challenge">
             Frontend Mentor
           </a>
-          . Coded by 
+          . Coded by
           {/* <a href="#">Your Name Here</a>. */}
         </div>
       </footer>
