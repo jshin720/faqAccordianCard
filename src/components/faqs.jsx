@@ -1,5 +1,6 @@
 import React from "react";
 import downArrow from "../images/icon-arrow-down.svg"
+import upArrow from "../images/up-arrow.svg"
 
 
 function faqs() {
@@ -10,6 +11,7 @@ function faqs() {
         <span>
           <h4> How many team members can I invite?</h4>
           <img src={downArrow} alt="arrow" />
+          <img src={upArrow} alt="arrow" />
           <p>
             You can invite up to 2 additional users on the Free plan. There is
             no limit on team members for the Premium plan.
