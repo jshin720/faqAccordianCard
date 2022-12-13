@@ -20,6 +20,7 @@ function faqs() {
         <span>
           <h4>What is the maximum file upload size?</h4>
           <img src={downArrow} alt="arrow" />
+          <img src={upArrow} alt="arrow" />
           <p>
             No more than 2GB. All files in your account must fit your allotted
             storage space.
@@ -36,6 +37,7 @@ function faqs() {
         <span>
           <h4>Can I cancel my subscription?</h4>
           <img src={downArrow} alt="arrow" />
+          <img src={upArrow} alt="arrow" />
           <p>
             Yes! Send us a message and we’ll process your request no questions
             asked.
@@ -44,6 +46,7 @@ function faqs() {
         <span>
           <h4> Do you provide additional support?</h4>
           <img src={downArrow} alt="arrow" />
+          <img src={upArrow} alt="arrow" />
           <p>
             Chat and email support is available 24/7. Phone lines are open
             during normal business hours.
