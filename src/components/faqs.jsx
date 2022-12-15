@@ -10,7 +10,7 @@ function faqs() {
       <body>
         <span>
           <h4> How many team members can I invite?</h4>
-          {/* <img src={downArrow} alt="arrow" /> */}
+          <img src={downArrow} alt="arrow" />
           <img src={upArrow} alt="arrow" />
           <p>
             You can invite up to 2 additional users on the Free plan. There is
