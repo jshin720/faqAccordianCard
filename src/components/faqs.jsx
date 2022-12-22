@@ -46,7 +46,7 @@ function faqs() {
         <span>
           <h4> Do you provide additional support?</h4>
           <img src={downArrow} alt="arrow" />
-          <img src={upArrow} alt="arrow" />
+          {/* <img src={upArrow} alt="arrow" /> / */}
           <p>
             Chat and email support is available 24/7. Phone lines are open
             during normal business hours.
